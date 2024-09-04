@@ -1,0 +1,6 @@
+[submodule "WordPress-Coding-Standards"]
+	path = WordPress-Coding-Standards
+	url = https://github.com/WordPress/WordPress-Coding-Standards
+[submodule "PHPCSUtils"]
+	path = PHPCSUtils
+	url = https://github.com/PHPCSStandards/PHPCSUtils

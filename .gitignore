@@ -1,0 +1,34 @@
+# Include your project-specific ignores in this file
+# Project initiated Jul-12-2021 by Shrinkray Interactive in association with Cadenza Media
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# THEME LEVEL FILES
+
+/node_modules/
+
+
+# Composer
+/vendor
+composer.lock
+
+# Unused files
+dist/child-responsive-styles.css
+dist/child-styles.css
+
+# IDE
+.idea
+.history
+.DS_Store
+*~
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+
+# host specific (irrelevant for this repo)
+.gitattributes
+_wpeprivate*
+
+# Webpack
+/webpack.development.config.js
+/webpack.production.config.js
